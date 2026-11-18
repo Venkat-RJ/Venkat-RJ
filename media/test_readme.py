@@ -52,7 +52,8 @@ class VisualAssets(unittest.TestCase):
         for theme in ['dark','light']:
             self.assertIn('NOT A DEMO OF A REAL EXPERIMENT.',(ROOT/f'experiment-{theme}.svg').read_text())
     def test_instance_count_and_signs(self):
-        rows=list(csv.DictReader((ROOT/'frontieror-instances.csv').open()))
+        with (ROOT/'frontieror-instances.csv').open() as stream:
+            rows=list(csv.DictReader(stream))
         values=[float(r['normalized_advantage']) for r in rows]
         self.assertEqual(len(values),30)
         self.assertEqual(sum(v>0 for v in values),29)
