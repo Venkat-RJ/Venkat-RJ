@@ -1,66 +1,53 @@
-<div align="center">
+# Venkateshwar Reddy
 
-<picture>
-  <source media="(prefers-reduced-motion: reduce) and (prefers-color-scheme: dark)" srcset="media/experiment-dark-static.svg">
-  <source media="(prefers-reduced-motion: reduce) and (prefers-color-scheme: light)" srcset="media/experiment-light-static.svg">
-  <source media="(prefers-color-scheme: dark)" srcset="media/experiment-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="media/experiment-light.svg">
-  <img src="media/experiment-light.svg" width="100%" alt="A little laboratory investigator celebrates an idea too early, gets challenged by a stern replication checker, finds a missing control, reruns the test and records a bounded conclusion. Illustrated by Venkat Reddy.">
-</picture>
+I work on **autonomous research systems, optimization, and AI reliability**.
 
-<sub>The experiment that fought back. Original 32-second SVG animation, illustrated and built for this README.</sub>
+The question behind much of my recent work is what happens *before* an agent starts solving a problem: how it formulates the problem, chooses a meaningful experiment, changes its approach when evidence disagrees, and decides what its results actually establish.
 
-**[Research](#selected-research) · [Building](#currently-building) · [Open source](#in-the-open) · [Writing](https://venkat-rj.github.io/) · [LinkedIn](https://www.linkedin.com/in/venkateshwar-jambula/)**
+[Website](https://venkat-rj.github.io/) · [Research code](https://github.com/Venkat-RJ?tab=repositories) · [LinkedIn](https://www.linkedin.com/in/venkateshwar-jambula/)
 
-</div>
+## Research
 
-I work on **autonomous research, optimization and reliable AI systems**. The question I keep returning to is whether an agent can do more than follow a plan: can it *formulate a problem, challenge its assumptions, run useful experiments and know what its evidence actually establishes?*
+**[FrontierOR](https://github.com/Venkat-RJ/openresearch)** · Autonomous experimentation in combinatorial optimization
 
-## Selected research
-
-### 01 / FrontierOR: putting an AI-developed solver to the test
+A factory-scheduling investigation using Sagent and Trackinizer, with Codex supporting the research infrastructure and validation. The final study froze the solver and evaluation protocol before generating fresh instances, and retained the comparisons, source, failures, and verification records.
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="media/frontieror-dark.svg">
   <source media="(prefers-color-scheme: light)" srcset="media/frontieror-light.svg">
-  <img src="media/frontieror-light.svg" width="100%" alt="Dot plot of 30 fresh synthetic scheduling instances comparing a frozen agent-developed solver against historical EGRASP. Twenty-nine mean comparisons favor the new solver and one favors EGRASP, across six instance strata.">
+  <img src="media/frontieror-light.svg" width="100%" alt="Measured normalized scheduling advantage for 30 synthetic instances. The plot shows all instances, including the comparison favoring the historical EGRASP solver.">
 </picture>
 
-A frozen, agent-developed C++ solver outperformed the historical EGRASP reference on **29 of 30 fresh synthetic scheduling instances** by three-run mean weighted tardiness. All **180 final executions** produced valid schedules. The study preserves the protocol, source, data and independent checks, including the one instance that favored the comparator. It is a result on this tested distribution, not a state-of-the-art claim.
+The frozen C++ solver had lower mean weighted tardiness than the historical EGRASP comparator on 29 of 30 fresh synthetic instances. All 180 final runs were valid. This is a comparison within the tested synthetic distribution, not a general state-of-the-art claim.
 
-[Research archive](https://github.com/Venkat-RJ/openresearch) · [Study and limitations](https://github.com/Venkat-RJ/openresearch/tree/main/frontieror/scheduling-study) · [Verify saved results](https://github.com/Venkat-RJ/openresearch/blob/main/frontieror/README.md)
+[Study](https://github.com/Venkat-RJ/openresearch/tree/main/frontieror/scheduling-study) · [Methods and limitations](https://github.com/Venkat-RJ/openresearch/blob/main/frontieror/METHODS.md) · [Reproduction records](https://github.com/Venkat-RJ/openresearch/blob/main/frontieror/scheduling-study/README.md)
 
-### 02 / FACET: the measurement can change the answer
+**[FACET](https://github.com/Venkat-RJ/facet-benchmark)** · Measuring attribution in multi-factor reasoning
 
-<table><tr>
-<td width="55%" valign="top">
-<a href="https://github.com/Venkat-RJ/facet-benchmark"><img src="https://raw.githubusercontent.com/Venkat-RJ/facet-benchmark/main/figures/fig1_probe_comparison.png" width="100%" alt="Original FACET research figure comparing attribution probes on the same tested LLM cases"></a>
-</td>
-<td valign="top">
+An exploratory study of how different attribution probes change our assessment of a model's reasoning. Includes the paper, code, raw responses, and documented limits of the pilot.
 
-An exploratory experiment on **attribution faithfulness in multi-factor LLM reasoning**. Different ways of asking a model which factors mattered can produce different assessments of its behavior.
+[Paper](https://github.com/Venkat-RJ/facet-benchmark/blob/main/FACET_paper.pdf) · [Archived research materials](https://doi.org/10.5281/zenodo.19557436)
 
-The paper, raw outputs and code are public. This is an exploratory pilot, not a validated general-purpose benchmark.
+**[CoherenceBench](https://github.com/Venkat-RJ/coherencebench)** · Decisions across changing conditions
 
-[Experiment and code](https://github.com/Venkat-RJ/facet-benchmark) · [Paper](https://github.com/Venkat-RJ/facet-benchmark/blob/main/FACET_paper.pdf) · [Archive](https://doi.org/10.5281/zenodo.19557436)
+An exploratory test of whether an agent's decisions continue to track changing signals over long synthetic monitoring sessions. The current evidence is preliminary and specific to its evaluation setup.
 
-</td>
-</tr></table>
+[Replay](https://venkat-rj.github.io/coherencebench/)
 
-## Currently building
+## Building
 
-**[Dexter's Laboratory](https://github.com/Venkat-RJ/dexters-laboratory-v1)** is an experimental research workspace built on [Lattice](https://github.com/leo1oel/lattice). It brings together problem formulation, literature, branching ideas, controlled experiment execution and a persistent research record. Local-first, source-available, and still evolving.
+**[Dexter's Laboratory](https://github.com/Venkat-RJ/dexters-laboratory-v1)** is an experimental research workspace built on [Lattice](https://github.com/leo1oel/lattice). It brings formulation, literature, branching experiments, bounded execution, validation, and the research record into the same local environment.
 
-The aim isn't another chat window. It's a place where the reasoning, attempts, failures and evidence of a research investigation can remain inspectable.
+I'm interested in making the *process of investigation* inspectable, including experiments that fail, not just the final answer.
 
-## In the open
+## Engineering contributions
 
-| Project | Work | Status |
-| :--- | :--- | :--- |
-| [**Talos**](https://github.com/cajal-technologies/talos) | WebAssembly validation in Lean: [table declarations](https://github.com/cajal-technologies/talos/pull/253), [uninitialized locals](https://github.com/cajal-technologies/talos/pull/250), [typed select](https://github.com/cajal-technologies/talos/pull/255) | Three merged PRs |
-| [**Sagent**](https://github.com/rekursiv-ai/sagent) | Agent-message attribution and persistent pending-work visibility ([#633](https://github.com/rekursiv-ai/sagent/pull/633), [#636](https://github.com/rekursiv-ai/sagent/pull/636)) | Proposed, open PRs |
-| [**TallySeal**](https://github.com/Venkat-RJ/hermes-tallyseal) | A Hermes Agent plugin for byte-exact release checks and grouped CSV verification | [Catalog PR merged](https://github.com/NousResearch/hermes-agent/pull/153588) |
+I also work directly in other people's codebases. Recent examples include WebAssembly interpreter validation in **[Talos](https://github.com/cajal-technologies/talos)** (Lean), agent-message attribution and state visibility proposed for **[Sagent](https://github.com/rekursiv-ai/sagent)**, and deterministic report verification in **[TallySeal](https://github.com/Venkat-RJ/hermes-tallyseal)** for Hermes Agent.
 
-Previously: founded PranaAlpha Labs; engineering and research across **Samsung Research, Bosch, Continental and Sigmoid**.
+[Selected Talos changes](https://github.com/cajal-technologies/talos/pulls?q=is%3Apr+author%3AVenkat-RJ) · [Sagent proposals](https://github.com/rekursiv-ai/sagent/pulls?q=is%3Apr+author%3AVenkat-RJ) · [TallySeal source](https://github.com/Venkat-RJ/hermes-tallyseal)
 
-<sub>Animation is a fictional illustration of the research process, not footage of an experimental result. The FrontierOR figure is generated directly from the study's published 30-instance CSV; source and verification are in [media/](media/README.md).</sub>
+---
+
+Previously, I founded PranaAlpha Labs. Earlier I worked across research, embedded systems, optimization, AI engineering, and technical leadership at Samsung Research, Bosch, Continental, and Sigmoid.
+
+[Website](https://venkat-rj.github.io/) · [LinkedIn](https://www.linkedin.com/in/venkateshwar-jambula/)
