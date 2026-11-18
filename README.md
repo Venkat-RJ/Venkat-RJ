@@ -1,49 +1,81 @@
-# Venkateshwar Reddy
+<div align="center">
 
-**Technologist · Founder · AI & Systems Builder**
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/hero-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="assets/hero-light.svg">
+  <img src="assets/hero-dark.svg" alt="Venkat Reddy. AI Research and Autonomous Systems. Building systems that investigate, test ideas, and verify results." width="100%">
+</picture>
 
-I've spent about 15 years building across software systems, embedded computing, optimization, machine learning, AI research, engineering leadership and startups.
+</div>
 
-My work has moved from low-level systems and industrial optimization to conversational AI, autonomous agents, investing systems, knowledge infrastructure and LLM evaluation. I'm now also exploring formal methods and discovery systems.
+<p align="center">
+  <a href="#selected-work">Research</a> &nbsp; / &nbsp;
+  <a href="#open-source-contributions">Open source</a> &nbsp; / &nbsp;
+  <a href="#background">Background</a> &nbsp; / &nbsp;
+  <a href="https://venkat-rj.github.io/">Portfolio</a> &nbsp; / &nbsp;
+  <a href="https://www.linkedin.com/in/venkateshwar-jambula/">LinkedIn</a>
+</p>
 
-The common thread is simple: I like difficult problems where the right abstraction has not been built yet.
+I am a researcher, engineer, and technical founder working at the intersection of **autonomous research, optimization, and reliable AI systems**.
 
-## A few things I've built and explored
+I am interested in a specific question: **How do we build systems that can investigate unfamiliar problems, challenge their own assumptions, and produce evidence we can actually verify?**
 
-**PortoAI**
+## Selected work
 
-Built and operated an AI investing and research platform connecting specialist agents, persistent context, market data, research workflows, safety controls and approval-gated execution. PortoAI operated through August 2026 and closed in September 2026.
+<a href="https://github.com/Venkat-RJ/openresearch">
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/frontieror-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="assets/frontieror-light.svg">
+  <img src="assets/frontieror-dark.svg" alt="FrontierOR: autonomous optimization research with a frozen solver, 29 of 30 fresh scheduling comparisons won, and 180 valid final runs." width="100%">
+</picture>
+</a>
 
-**Lokaah**
+**[FrontierOR](https://github.com/Venkat-RJ/openresearch)** · [Study](https://github.com/Venkat-RJ/openresearch/tree/main/frontieror/scheduling-study) · [Verification](https://github.com/Venkat-RJ/openresearch/blob/main/frontieror/scheduling-study/README.md)
 
-Built and explored knowledge infrastructure for AI agents: resolving entities and relationships across messy public information into cited, queryable knowledge, with provenance preserved across sources.
+A frozen, agent-developed solver beat a historical EGRASP implementation on **29 of 30 fresh synthetic scheduling instances** by three-run mean weighted tardiness. The study includes 180 valid final executions, saved protocols, source code, and independent checks. This is a bounded experimental result, not a state-of-the-art claim.
 
-**[FACET](https://github.com/Venkat-RJ/facet-benchmark)**
+<a href="https://github.com/Venkat-RJ/dexters-laboratory-v1">
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/dexter-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="assets/dexter-light.svg">
+  <img src="assets/dexter-dark.svg" alt="Dexter's Laboratory: a local-first research workbench taking ideas from problem formulation through baselines, experiments and verification." width="100%">
+</picture>
+</a>
 
-An exploratory pilot on attribution faithfulness in multi-factor LLM reasoning: how different probes change what we can infer about the factors a model considers. Includes probe code, raw outputs and a research write-up.
+**[Dexter's Laboratory](https://github.com/Venkat-RJ/dexters-laboratory-v1)** · [Source and setup](https://github.com/Venkat-RJ/dexters-laboratory-v1#build-from-source)
 
-**[CoherenceBench](https://github.com/Venkat-RJ/coherencebench)**
+An experimental, local-first research workspace **built on Lattice**. It brings problem formulation, prior knowledge, experiment planning, bounded runs, validation, and research records together. The repository identifies its upstream foundation and documents the source installation.
 
-Studying whether model decisions remain coherent as relevant signals change over long synthetic monitoring sessions. An exploratory experiment with a [replay demo](https://venkat-rj.github.io/coherencebench/).
+<a href="https://github.com/Venkat-RJ/facet-benchmark">
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/facet-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="assets/facet-light.svg">
+  <img src="assets/facet-dark.svg" alt="FACET: an exploratory study of how probe formats affect model attribution measurements." width="100%">
+</picture>
+</a>
 
-## Research, engineering and leadership
+**[FACET](https://github.com/Venkat-RJ/facet-benchmark)** · [Paper](https://github.com/Venkat-RJ/facet-benchmark/blob/main/FACET_paper.pdf) · [Research archive](https://doi.org/10.5281/zenodo.19557436)
 
-At Samsung Research, Bosch, Continental and Sigmoid, I worked across AI, machine learning, optimization and embedded systems, from research to production.
+An exploratory study of attribution faithfulness in multi-factor LLM reasoning. It examines how the *measurement method* can change the apparent behavior of a model. Includes a paper, code, and raw experimental outputs. Findings are limited to the studied cases and probes.
 
-At Continental, I built and led a 12-person data science team. At Sigmoid, I established the GenAI Center of Excellence and trained more than 50 engineers.
+## Open-source contributions
 
-## What I'm exploring now
+| Project | Engineering contributions | Status |
+| :--- | :--- | :--- |
+| **[Talos](https://github.com/cajal-technologies/talos)** | WebAssembly interpreter validation in Lean: [tables](https://github.com/cajal-technologies/talos/pull/253), [uninitialized locals](https://github.com/cajal-technologies/talos/pull/250), [typed select](https://github.com/cajal-technologies/talos/pull/255) | 3 merged PRs |
+| **[Sagent](https://github.com/rekursiv-ai/sagent)** | Worker-message attribution, pending-work visibility, CLI reliability: [#633](https://github.com/rekursiv-ai/sagent/pull/633), [#636](https://github.com/rekursiv-ai/sagent/pull/636) | Open PRs |
+| **[Hermes / TallySeal](https://github.com/Venkat-RJ/hermes-tallyseal)** | Deterministic grouped-CSV verification and byte-exact release checks | [Catalog PR merged](https://github.com/NousResearch/hermes-agent/pull/153588) |
 
-**[Cajal / Talos](https://github.com/cajal-technologies/talos)**
+Other experiments: **[CoherenceBench](https://github.com/Venkat-RJ/coherencebench)**, an exploratory test of changing decisions in long-running monitoring tasks. Its results are preliminary and constrained to the test harness.
 
-Contributing to a WebAssembly interpreter written in Lean and designed for reasoning and proof. My work covers interpreter validation, typing rules, CI and developer experience. Merged contributions include [table validation](https://github.com/cajal-technologies/talos/pull/253), [uninitialized locals](https://github.com/cajal-technologies/talos/pull/250) and [select validation](https://github.com/cajal-technologies/talos/pull/255).
+## Background
 
-**[Rekursiv](https://github.com/rekursiv-ai)**
+I founded PranaAlpha Labs and built AI products and knowledge infrastructure for agents. Before that, I worked across research, embedded systems, optimization, AI engineering, and technical leadership at **Samsung Research, Bosch, Continental, and Sigmoid**.
 
-Exploring infrastructure for autonomous research and discovery, with contributions to [sagent](https://github.com/rekursiv-ai/sagent/pull/601) and [wesearch](https://github.com/rekursiv-ai/wesearch/pull/275).
+I care about the path from **question → experiment → result → independent verification**. The code is important, but so is knowing what the evidence does and does not establish.
 
-I'm increasingly interested in the intersection of AI agents, discovery systems, reasoning, reliability, knowledge and verifiable computation.
-
-I still enjoy going deep into the code.
-
-[Portfolio](https://venkat-rj.github.io/) · [LinkedIn](https://www.linkedin.com/in/venkateshwar-jambula/)
+<p align="center">
+  <a href="https://venkat-rj.github.io/">Portfolio</a> &nbsp; · &nbsp;
+  <a href="https://www.linkedin.com/in/venkateshwar-jambula/">LinkedIn</a> &nbsp; · &nbsp;
+  <a href="https://github.com/Venkat-RJ?tab=repositories">Repositories</a>
+</p>
