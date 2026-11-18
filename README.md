@@ -4,7 +4,7 @@
 
 I've worked on everything from embedded systems and optimization to machine learning, AI products and research tools. I've also built teams and started a company.
 
-These days, I'm trying to figure out how AI agents can do more than follow instructions. Can they figure out the problem, try different ideas, run experiments and tell what actually worked?
+I'm currently doing independent research on autonomous scientific discovery, exploring how AI agents can conduct research, experiment with different approaches and improve on their own.
 
 ## Things I've worked on
 
