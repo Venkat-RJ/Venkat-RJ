@@ -1,49 +1,54 @@
 # Venkateshwar Reddy
 
-**Technologist · Founder · AI & Systems Builder**
+**AI Research · Autonomous Systems · Technical Founder**
 
-I've spent about 15 years building across software systems, embedded computing, optimization, machine learning, AI research, engineering leadership and startups.
+I've worked across software, embedded systems, optimization, machine learning and AI, from hands-on research and engineering to building teams and products.
 
-My work has moved from low-level systems and industrial optimization to conversational AI, autonomous agents, investing systems, knowledge infrastructure and LLM evaluation. I'm now also exploring formal methods and discovery systems.
+Lately, I've been exploring how AI agents can go beyond executing a given plan: formulate problems, investigate different approaches, run experiments and produce results that can be checked.
 
-The common thread is simple: I like difficult problems where the right abstraction has not been built yet.
+## Selected work
 
-## A few things I've built and explored
+<table width="100%">
+<tr>
+<td width="50%" valign="top">
+<strong><a href="https://github.com/Venkat-RJ/openresearch">FrontierOR</a></strong>
+<p>Autonomous experimentation in combinatorial optimization. The public archive includes factory-scheduling results, frozen solver code, evaluation protocols and independent checks.</p>
+</td>
+<td width="50%" valign="top">
+<strong><a href="https://github.com/Venkat-RJ/dexters-laboratory-v1">Dexter's Laboratory</a></strong>
+<p>An experimental research workspace built on <a href="https://github.com/leo1oel/lattice">Lattice</a>, bringing together formulation, literature, branching ideas, experiment execution and research records.</p>
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+<strong><a href="https://github.com/Venkat-RJ/facet-benchmark">FACET</a></strong>
+<p>An exploratory study of attribution faithfulness in multi-factor LLM reasoning, with a <a href="https://github.com/Venkat-RJ/facet-benchmark/blob/main/FACET_paper.pdf">paper</a>, code and experimental outputs.</p>
+</td>
+<td width="50%" valign="top">
+<strong><a href="https://github.com/Venkat-RJ/coherencebench">CoherenceBench</a></strong>
+<p>An exploratory test of whether model decisions track changing signals over long synthetic monitoring sessions. Includes a <a href="https://venkat-rj.github.io/coherencebench/">replay demo</a>.</p>
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+<strong>PortoAI</strong>
+<p>An AI investing and research platform I built and operated, combining specialist agents, market data, persistent context and approval-gated workflows. Closed in 2026.</p>
+</td>
+<td width="50%" valign="top">
+<strong>Lokaah</strong>
+<p>Knowledge infrastructure for agents, focused on resolving entities and relationships across messy information while retaining provenance and source citations.</p>
+</td>
+</tr>
+</table>
 
-**PortoAI**
+## Open-source engineering
 
-Built and operated an AI investing and research platform connecting specialist agents, persistent context, market data, research workflows, safety controls and approval-gated execution. PortoAI operated through August 2026 and closed in September 2026.
+I've contributed to **[Talos](https://github.com/cajal-technologies/talos)**, a WebAssembly interpreter in Lean, working on validation and correctness. I've also proposed improvements to agent messaging and state visibility in **[Sagent](https://github.com/rekursiv-ai/sagent)**, and built **[TallySeal](https://github.com/Venkat-RJ/hermes-tallyseal)**, a verification plugin for Hermes Agent.
 
-**Lokaah**
+## Background
 
-Built and explored knowledge infrastructure for AI agents: resolving entities and relationships across messy public information into cited, queryable knowledge, with provenance preserved across sources.
+Before founding PranaAlpha Labs, I worked at **Samsung Research, Bosch, Continental and Sigmoid**, across AI, optimization, embedded systems and engineering leadership. At Continental I led a data science team, and at Sigmoid I established the GenAI Center of Excellence.
 
-**[FACET](https://github.com/Venkat-RJ/facet-benchmark)**
+I like difficult problems where the right abstraction has not yet been found, and I still enjoy going deep into the code.
 
-An exploratory pilot on attribution faithfulness in multi-factor LLM reasoning: how different probes change what we can infer about the factors a model considers. Includes probe code, raw outputs and a research write-up.
-
-**[CoherenceBench](https://github.com/Venkat-RJ/coherencebench)**
-
-Studying whether model decisions remain coherent as relevant signals change over long synthetic monitoring sessions. An exploratory experiment with a [replay demo](https://venkat-rj.github.io/coherencebench/).
-
-## Research, engineering and leadership
-
-At Samsung Research, Bosch, Continental and Sigmoid, I worked across AI, machine learning, optimization and embedded systems, from research to production.
-
-At Continental, I built and led a 12-person data science team. At Sigmoid, I established the GenAI Center of Excellence and trained more than 50 engineers.
-
-## What I'm exploring now
-
-**[Cajal / Talos](https://github.com/cajal-technologies/talos)**
-
-Contributing to a WebAssembly interpreter written in Lean and designed for reasoning and proof. My work covers interpreter validation, typing rules, CI and developer experience. Merged contributions include [table validation](https://github.com/cajal-technologies/talos/pull/253), [uninitialized locals](https://github.com/cajal-technologies/talos/pull/250) and [select validation](https://github.com/cajal-technologies/talos/pull/255).
-
-**[Rekursiv](https://github.com/rekursiv-ai)**
-
-Exploring infrastructure for autonomous research and discovery, with contributions to [sagent](https://github.com/rekursiv-ai/sagent/pull/601) and [wesearch](https://github.com/rekursiv-ai/wesearch/pull/275).
-
-I'm increasingly interested in the intersection of AI agents, discovery systems, reasoning, reliability, knowledge and verifiable computation.
-
-I still enjoy going deep into the code.
-
-[Portfolio](https://venkat-rj.github.io/) · [LinkedIn](https://www.linkedin.com/in/venkateshwar-jambula/)
+[Website](https://venkat-rj.github.io/) · [LinkedIn](https://www.linkedin.com/in/venkateshwar-jambula/)
