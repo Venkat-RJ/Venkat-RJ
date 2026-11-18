@@ -2,53 +2,53 @@
 
 **AI Research · Autonomous Systems · Technical Founder**
 
-I've worked across software, embedded systems, optimization, machine learning and AI, from hands-on research and engineering to building teams and products.
+I've worked on everything from embedded systems and optimization to machine learning, AI products and research tools. I've also built teams and started a company.
 
-Lately, I've been exploring how AI agents can go beyond executing a given plan: formulate problems, investigate different approaches, run experiments and produce results that can be checked.
+These days, I'm trying to figure out how AI agents can do more than follow instructions. Can they figure out the problem, try different ideas, run experiments and tell what actually worked?
 
-## Selected work
+## Things I've worked on
 
 <table width="100%">
 <tr>
 <td width="50%" valign="top">
 <strong><a href="https://github.com/Venkat-RJ/openresearch">FrontierOR</a></strong>
-<p>Autonomous experimentation in combinatorial optimization. The public archive includes factory-scheduling results, frozen solver code, evaluation protocols and independent checks.</p>
+<p>I used AI agents to explore factory-scheduling problems. The repo has the solver code, experiment results, protocols and checks so people can see what was tested.</p>
 </td>
 <td width="50%" valign="top">
 <strong><a href="https://github.com/Venkat-RJ/dexters-laboratory-v1">Dexter's Laboratory</a></strong>
-<p>An experimental research workspace built on <a href="https://github.com/leo1oel/lattice">Lattice</a>, bringing together formulation, literature, branching ideas, experiment execution and research records.</p>
+<p>A research workspace I'm building on top of <a href="https://github.com/leo1oel/lattice">Lattice</a>. I wanted one place for formulating problems, reading papers, trying ideas, running experiments and keeping track of what happened.</p>
 </td>
 </tr>
 <tr>
 <td width="50%" valign="top">
 <strong><a href="https://github.com/Venkat-RJ/facet-benchmark">FACET</a></strong>
-<p>An exploratory study of attribution faithfulness in multi-factor LLM reasoning, with a <a href="https://github.com/Venkat-RJ/facet-benchmark/blob/main/FACET_paper.pdf">paper</a>, code and experimental outputs.</p>
+<p>I explored how changing the way we ask models about their reasoning can change what we think they relied on. An early study with a <a href="https://github.com/Venkat-RJ/facet-benchmark/blob/main/FACET_paper.pdf">paper</a>, code and raw results.</p>
 </td>
 <td width="50%" valign="top">
 <strong><a href="https://github.com/Venkat-RJ/coherencebench">CoherenceBench</a></strong>
-<p>An exploratory test of whether model decisions track changing signals over long synthetic monitoring sessions. Includes a <a href="https://venkat-rj.github.io/coherencebench/">replay demo</a>.</p>
+<p>An early experiment on whether an agent keeps track of what's important as conditions change over a long session. There's a <a href="https://venkat-rj.github.io/coherencebench/">replay demo</a> too.</p>
 </td>
 </tr>
 <tr>
 <td width="50%" valign="top">
 <strong>PortoAI</strong>
-<p>An AI investing and research platform I built and operated, combining specialist agents, market data, persistent context and approval-gated workflows. Closed in 2026.</p>
+<p>An AI investing and research platform I built and ran, with specialist agents, market data, persistent context and approval-gated workflows. We closed it in 2026.</p>
 </td>
 <td width="50%" valign="top">
 <strong>Lokaah</strong>
-<p>Knowledge infrastructure for agents, focused on resolving entities and relationships across messy information while retaining provenance and source citations.</p>
+<p>I worked on giving agents a better way to connect knowledge across messy sources, including entities, relationships, citations and where each piece of information came from.</p>
 </td>
 </tr>
 </table>
 
-## Open-source engineering
+## Open source
 
-I've contributed to **[Talos](https://github.com/cajal-technologies/talos)**, a WebAssembly interpreter in Lean, working on validation and correctness. I've also proposed improvements to agent messaging and state visibility in **[Sagent](https://github.com/rekursiv-ai/sagent)**, and built **[TallySeal](https://github.com/Venkat-RJ/hermes-tallyseal)**, a verification plugin for Hermes Agent.
+I've worked on WebAssembly validation in Lean for **[Talos](https://github.com/cajal-technologies/talos)**, proposed fixes for agent messaging and state visibility in **[Sagent](https://github.com/rekursiv-ai/sagent)**, and built **[TallySeal](https://github.com/Venkat-RJ/hermes-tallyseal)** for checking reports in Hermes Agent.
 
-## Background
+## A little background
 
-Before founding PranaAlpha Labs, I worked at **Samsung Research, Bosch, Continental and Sigmoid**, across AI, optimization, embedded systems and engineering leadership. At Continental I led a data science team, and at Sigmoid I established the GenAI Center of Excellence.
+Before starting PranaAlpha Labs, I worked at **Samsung Research, Bosch, Continental and Sigmoid**. At Continental I led a data science team, and at Sigmoid I set up the GenAI Center of Excellence.
 
-I like difficult problems where the right abstraction has not yet been found, and I still enjoy going deep into the code.
+I enjoy difficult problems, especially when it's not obvious what the right approach is. And I still like getting into the code.
 
 [Website](https://venkat-rj.github.io/) · [LinkedIn](https://www.linkedin.com/in/venkateshwar-jambula/)
