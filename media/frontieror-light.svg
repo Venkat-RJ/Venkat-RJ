@@ -1,0 +1,65 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="328" viewBox="0 0 900 328" role="img" aria-labelledby="title desc">
+<title id="title">FrontierOR, 30 fresh scheduling instances</title>
+<desc id="desc">Each dot is an instance, positioned by normalized mean objective difference. Twenty-nine instances favored the frozen solver and one favored the historical EGRASP comparator. The comparison is restricted to this study.</desc>
+<rect x="0" y="0" width="900" height="328" fill="#FCFAF4" rx="2" stroke="#BCC6BE" stroke-width="1"/>
+<text x="27" y="30" fill="#9C741C" font-size="11" font-weight="700" font-family="'SFMono-Regular', Consolas, 'Liberation Mono', monospace" letter-spacing="1">FRONTIEROR   /   FROZEN STUDY</text>
+<text x="27" y="60" fill="#232A2B" font-size="27" font-weight="600" font-family="Georgia, 'Times New Roman', serif">30 fresh scheduling instances</text>
+<text x="873" y="40" fill="#347F65" font-size="28" font-weight="700" font-family="Georgia, 'Times New Roman', serif" text-anchor="end">29 / 30</text>
+<text x="872" y="57" fill="#556462" font-size="11" font-weight="500" font-family="'Helvetica Neue', Arial, sans-serif" text-anchor="end">comparisons won</text>
+<path d="M 262.0 81 V 280" fill="none" stroke="#E1E5DD" stroke-width="0.75" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="262.0" y="302" fill="#556462" font-size="10" font-weight="400" font-family="'SFMono-Regular', Consolas, 'Liberation Mono', monospace" text-anchor="middle">-5%</text>
+<path d="M 359.0 81 V 280" fill="none" stroke="#BCC6BE" stroke-width="1.45" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="359.0" y="302" fill="#556462" font-size="10" font-weight="700" font-family="'SFMono-Regular', Consolas, 'Liberation Mono', monospace" text-anchor="middle">+0%</text>
+<path d="M 456.0 81 V 280" fill="none" stroke="#E1E5DD" stroke-width="0.75" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="456.0" y="302" fill="#556462" font-size="10" font-weight="400" font-family="'SFMono-Regular', Consolas, 'Liberation Mono', monospace" text-anchor="middle">+5%</text>
+<path d="M 553.0 81 V 280" fill="none" stroke="#E1E5DD" stroke-width="0.75" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="553.0" y="302" fill="#556462" font-size="10" font-weight="400" font-family="'SFMono-Regular', Consolas, 'Liberation Mono', monospace" text-anchor="middle">+10%</text>
+<path d="M 650.0 81 V 280" fill="none" stroke="#E1E5DD" stroke-width="0.75" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="650.0" y="302" fill="#556462" font-size="10" font-weight="400" font-family="'SFMono-Regular', Consolas, 'Liberation Mono', monospace" text-anchor="middle">+15%</text>
+<path d="M 747.0 81 V 280" fill="none" stroke="#E1E5DD" stroke-width="0.75" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="747.0" y="302" fill="#556462" font-size="10" font-weight="400" font-family="'SFMono-Regular', Consolas, 'Liberation Mono', monospace" text-anchor="middle">+20%</text>
+<path d="M 844.0 81 V 280" fill="none" stroke="#E1E5DD" stroke-width="0.75" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="844.0" y="302" fill="#556462" font-size="10" font-weight="400" font-family="'SFMono-Regular', Consolas, 'Liberation Mono', monospace" text-anchor="middle">+25%</text>
+<text x="25" y="104" fill="#556462" font-size="12" font-weight="550" font-family="'SFMono-Regular', Consolas, 'Liberation Mono', monospace">tightness 1.5   /   uniform</text>
+<circle cx="480.33" cy="94" r="4.4" fill="#347F65" stroke="#FCFAF4" stroke-width="0.8"/>
+<circle cx="615.19" cy="98" r="4.4" fill="#347F65" stroke="#FCFAF4" stroke-width="0.8"/>
+<circle cx="580.98" cy="101" r="4.4" fill="#347F65" stroke="#FCFAF4" stroke-width="0.8"/>
+<circle cx="576.9" cy="105" r="4.4" fill="#347F65" stroke="#FCFAF4" stroke-width="0.8"/>
+<circle cx="568.89" cy="108" r="4.4" fill="#347F65" stroke="#FCFAF4" stroke-width="0.8"/>
+<text x="25" y="133" fill="#556462" font-size="12" font-weight="550" font-family="'SFMono-Regular', Consolas, 'Liberation Mono', monospace">tightness 1.5   /   priority</text>
+<path d="M 26 114 H 871" fill="none" stroke="#E1E5DD" stroke-width="0.8" stroke-linecap="round" stroke-linejoin="round"/>
+<circle cx="466.7" cy="123" r="4.4" fill="#347F65" stroke="#FCFAF4" stroke-width="0.8"/>
+<circle cx="326.93" cy="127" r="4.4" fill="#BE564B" stroke="#FCFAF4" stroke-width="0.8"/>
+<circle cx="546.71" cy="130" r="4.4" fill="#347F65" stroke="#FCFAF4" stroke-width="0.8"/>
+<circle cx="534.41" cy="134" r="4.4" fill="#347F65" stroke="#FCFAF4" stroke-width="0.8"/>
+<circle cx="497.24" cy="137" r="4.4" fill="#347F65" stroke="#FCFAF4" stroke-width="0.8"/>
+<text x="25" y="162" fill="#556462" font-size="12" font-weight="550" font-family="'SFMono-Regular', Consolas, 'Liberation Mono', monospace">tightness 1.75  /   uniform</text>
+<path d="M 26 143 H 871" fill="none" stroke="#E1E5DD" stroke-width="0.8" stroke-linecap="round" stroke-linejoin="round"/>
+<circle cx="472.78" cy="152" r="4.4" fill="#347F65" stroke="#FCFAF4" stroke-width="0.8"/>
+<circle cx="719.1" cy="156" r="4.4" fill="#347F65" stroke="#FCFAF4" stroke-width="0.8"/>
+<circle cx="553.6" cy="159" r="4.4" fill="#347F65" stroke="#FCFAF4" stroke-width="0.8"/>
+<circle cx="770.0" cy="163" r="4.4" fill="#347F65" stroke="#FCFAF4" stroke-width="0.8"/>
+<circle cx="572.08" cy="166" r="4.4" fill="#347F65" stroke="#FCFAF4" stroke-width="0.8"/>
+<text x="25" y="191" fill="#556462" font-size="12" font-weight="550" font-family="'SFMono-Regular', Consolas, 'Liberation Mono', monospace">tightness 1.75  /   priority</text>
+<path d="M 26 172 H 871" fill="none" stroke="#E1E5DD" stroke-width="0.8" stroke-linecap="round" stroke-linejoin="round"/>
+<circle cx="396.71" cy="181" r="4.4" fill="#347F65" stroke="#FCFAF4" stroke-width="0.8"/>
+<circle cx="436.79" cy="185" r="4.4" fill="#347F65" stroke="#FCFAF4" stroke-width="0.8"/>
+<circle cx="461.69" cy="188" r="4.4" fill="#347F65" stroke="#FCFAF4" stroke-width="0.8"/>
+<circle cx="569.0" cy="192" r="4.4" fill="#347F65" stroke="#FCFAF4" stroke-width="0.8"/>
+<circle cx="463.72" cy="195" r="4.4" fill="#347F65" stroke="#FCFAF4" stroke-width="0.8"/>
+<text x="25" y="220" fill="#556462" font-size="12" font-weight="550" font-family="'SFMono-Regular', Consolas, 'Liberation Mono', monospace">tightness 2.0   /   uniform</text>
+<path d="M 26 201 H 871" fill="none" stroke="#E1E5DD" stroke-width="0.8" stroke-linecap="round" stroke-linejoin="round"/>
+<circle cx="533.58" cy="210" r="4.4" fill="#347F65" stroke="#FCFAF4" stroke-width="0.8"/>
+<circle cx="703.48" cy="214" r="4.4" fill="#347F65" stroke="#FCFAF4" stroke-width="0.8"/>
+<circle cx="588.6" cy="217" r="4.4" fill="#347F65" stroke="#FCFAF4" stroke-width="0.8"/>
+<circle cx="649.98" cy="221" r="4.4" fill="#347F65" stroke="#FCFAF4" stroke-width="0.8"/>
+<circle cx="515.13" cy="224" r="4.4" fill="#347F65" stroke="#FCFAF4" stroke-width="0.8"/>
+<text x="25" y="249" fill="#556462" font-size="12" font-weight="550" font-family="'SFMono-Regular', Consolas, 'Liberation Mono', monospace">tightness 2.0   /   priority</text>
+<path d="M 26 230 H 871" fill="none" stroke="#E1E5DD" stroke-width="0.8" stroke-linecap="round" stroke-linejoin="round"/>
+<circle cx="548.34" cy="239" r="4.4" fill="#347F65" stroke="#FCFAF4" stroke-width="0.8"/>
+<circle cx="544.99" cy="243" r="4.4" fill="#347F65" stroke="#FCFAF4" stroke-width="0.8"/>
+<circle cx="537.63" cy="246" r="4.4" fill="#347F65" stroke="#FCFAF4" stroke-width="0.8"/>
+<circle cx="554.29" cy="250" r="4.4" fill="#347F65" stroke="#FCFAF4" stroke-width="0.8"/>
+<circle cx="607.77" cy="253" r="4.4" fill="#347F65" stroke="#FCFAF4" stroke-width="0.8"/>
+<text x="27" y="324" fill="#73847E" font-size="10" font-weight="400" font-family="'Helvetica Neue', Arial, sans-serif">Right of zero = better mean weighted tardiness for the frozen solver. Synthetic data; historical reference.</text>
+</svg>

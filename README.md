@@ -1,81 +1,64 @@
 <div align="center">
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/hero-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="assets/hero-light.svg">
-  <img src="assets/hero-dark.svg" alt="Venkat Reddy. AI Research and Autonomous Systems. Building systems that investigate, test ideas, and verify results." width="100%">
+  <source media="(prefers-color-scheme: dark)" srcset="media/experiment-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="media/experiment-light.svg">
+  <img src="media/experiment-light.svg" width="100%" alt="A little laboratory investigator celebrates an idea too early, gets challenged by a stern replication checker, finds a missing control, reruns the test and records a bounded conclusion. Illustrated by Venkat Reddy.">
 </picture>
+
+<sub>The experiment that fought back. Original 32-second SVG animation, illustrated and built for this README.</sub>
+
+**[Research](#selected-research) · [Building](#currently-building) · [Open source](#in-the-open) · [Writing](https://venkat-rj.github.io/) · [LinkedIn](https://www.linkedin.com/in/venkateshwar-jambula/)**
 
 </div>
 
-<p align="center">
-  <a href="#selected-work">Research</a> &nbsp; / &nbsp;
-  <a href="#open-source-contributions">Open source</a> &nbsp; / &nbsp;
-  <a href="#background">Background</a> &nbsp; / &nbsp;
-  <a href="https://venkat-rj.github.io/">Portfolio</a> &nbsp; / &nbsp;
-  <a href="https://www.linkedin.com/in/venkateshwar-jambula/">LinkedIn</a>
-</p>
+I work on **autonomous research, optimization and reliable AI systems**. The question I keep returning to is whether an agent can do more than follow a plan: can it *formulate a problem, challenge its assumptions, run useful experiments and know what its evidence actually establishes?*
 
-I am a researcher, engineer, and technical founder working at the intersection of **autonomous research, optimization, and reliable AI systems**.
+## Selected research
 
-I am interested in a specific question: **How do we build systems that can investigate unfamiliar problems, challenge their own assumptions, and produce evidence we can actually verify?**
+### 01 / FrontierOR: putting an AI-developed solver to the test
 
-## Selected work
-
-<a href="https://github.com/Venkat-RJ/openresearch">
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/frontieror-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="assets/frontieror-light.svg">
-  <img src="assets/frontieror-dark.svg" alt="FrontierOR: autonomous optimization research with a frozen solver, 29 of 30 fresh scheduling comparisons won, and 180 valid final runs." width="100%">
+  <source media="(prefers-color-scheme: dark)" srcset="media/frontieror-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="media/frontieror-light.svg">
+  <img src="media/frontieror-light.svg" width="100%" alt="Dot plot of 30 fresh synthetic scheduling instances comparing a frozen agent-developed solver against historical EGRASP. Twenty-nine mean comparisons favor the new solver and one favors EGRASP, across six instance strata.">
 </picture>
-</a>
 
-**[FrontierOR](https://github.com/Venkat-RJ/openresearch)** · [Study](https://github.com/Venkat-RJ/openresearch/tree/main/frontieror/scheduling-study) · [Verification](https://github.com/Venkat-RJ/openresearch/blob/main/frontieror/scheduling-study/README.md)
+A frozen, agent-developed C++ solver outperformed the historical EGRASP reference on **29 of 30 fresh synthetic scheduling instances** by three-run mean weighted tardiness. All **180 final executions** produced valid schedules. The study preserves the protocol, source, data and independent checks, including the one instance that favored the comparator. It is a result on this tested distribution, not a state-of-the-art claim.
 
-A frozen, agent-developed solver beat a historical EGRASP implementation on **29 of 30 fresh synthetic scheduling instances** by three-run mean weighted tardiness. The study includes 180 valid final executions, saved protocols, source code, and independent checks. This is a bounded experimental result, not a state-of-the-art claim.
+[Research archive](https://github.com/Venkat-RJ/openresearch) · [Study and limitations](https://github.com/Venkat-RJ/openresearch/tree/main/frontieror/scheduling-study) · [Verify saved results](https://github.com/Venkat-RJ/openresearch/blob/main/frontieror/README.md)
 
-<a href="https://github.com/Venkat-RJ/dexters-laboratory-v1">
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/dexter-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="assets/dexter-light.svg">
-  <img src="assets/dexter-dark.svg" alt="Dexter's Laboratory: a local-first research workbench taking ideas from problem formulation through baselines, experiments and verification." width="100%">
-</picture>
-</a>
+### 02 / FACET: the measurement can change the answer
 
-**[Dexter's Laboratory](https://github.com/Venkat-RJ/dexters-laboratory-v1)** · [Source and setup](https://github.com/Venkat-RJ/dexters-laboratory-v1#build-from-source)
+<table><tr>
+<td width="55%" valign="top">
+<a href="https://github.com/Venkat-RJ/facet-benchmark"><img src="https://raw.githubusercontent.com/Venkat-RJ/facet-benchmark/main/figures/fig1_probe_comparison.png" width="100%" alt="Original FACET research figure comparing attribution probes on the same tested LLM cases"></a>
+</td>
+<td valign="top">
 
-An experimental, local-first research workspace **built on Lattice**. It brings problem formulation, prior knowledge, experiment planning, bounded runs, validation, and research records together. The repository identifies its upstream foundation and documents the source installation.
+An exploratory experiment on **attribution faithfulness in multi-factor LLM reasoning**. Different ways of asking a model which factors mattered can produce different assessments of its behavior.
 
-<a href="https://github.com/Venkat-RJ/facet-benchmark">
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/facet-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="assets/facet-light.svg">
-  <img src="assets/facet-dark.svg" alt="FACET: an exploratory study of how probe formats affect model attribution measurements." width="100%">
-</picture>
-</a>
+The paper, raw outputs and code are public. This is an exploratory pilot, not a validated general-purpose benchmark.
 
-**[FACET](https://github.com/Venkat-RJ/facet-benchmark)** · [Paper](https://github.com/Venkat-RJ/facet-benchmark/blob/main/FACET_paper.pdf) · [Research archive](https://doi.org/10.5281/zenodo.19557436)
+[Experiment and code](https://github.com/Venkat-RJ/facet-benchmark) · [Paper](https://github.com/Venkat-RJ/facet-benchmark/blob/main/FACET_paper.pdf) · [Archive](https://doi.org/10.5281/zenodo.19557436)
 
-An exploratory study of attribution faithfulness in multi-factor LLM reasoning. It examines how the *measurement method* can change the apparent behavior of a model. Includes a paper, code, and raw experimental outputs. Findings are limited to the studied cases and probes.
+</td>
+</tr></table>
 
-## Open-source contributions
+## Currently building
 
-| Project | Engineering contributions | Status |
+**[Dexter's Laboratory](https://github.com/Venkat-RJ/dexters-laboratory-v1)** is an experimental research workspace built on [Lattice](https://github.com/leo1oel/lattice). It brings together problem formulation, literature, branching ideas, controlled experiment execution and a persistent research record. Local-first, source-available, and still evolving.
+
+The aim isn't another chat window. It's a place where the reasoning, attempts, failures and evidence of a research investigation can remain inspectable.
+
+## In the open
+
+| Project | Work | Status |
 | :--- | :--- | :--- |
-| **[Talos](https://github.com/cajal-technologies/talos)** | WebAssembly interpreter validation in Lean: [tables](https://github.com/cajal-technologies/talos/pull/253), [uninitialized locals](https://github.com/cajal-technologies/talos/pull/250), [typed select](https://github.com/cajal-technologies/talos/pull/255) | 3 merged PRs |
-| **[Sagent](https://github.com/rekursiv-ai/sagent)** | Worker-message attribution, pending-work visibility, CLI reliability: [#633](https://github.com/rekursiv-ai/sagent/pull/633), [#636](https://github.com/rekursiv-ai/sagent/pull/636) | Open PRs |
-| **[Hermes / TallySeal](https://github.com/Venkat-RJ/hermes-tallyseal)** | Deterministic grouped-CSV verification and byte-exact release checks | [Catalog PR merged](https://github.com/NousResearch/hermes-agent/pull/153588) |
+| [**Talos**](https://github.com/cajal-technologies/talos) | WebAssembly validation in Lean: [table declarations](https://github.com/cajal-technologies/talos/pull/253), [uninitialized locals](https://github.com/cajal-technologies/talos/pull/250), [typed select](https://github.com/cajal-technologies/talos/pull/255) | Three merged PRs |
+| [**Sagent**](https://github.com/rekursiv-ai/sagent) | Agent-message attribution and persistent pending-work visibility ([#633](https://github.com/rekursiv-ai/sagent/pull/633), [#636](https://github.com/rekursiv-ai/sagent/pull/636)) | Proposed, open PRs |
+| [**TallySeal**](https://github.com/Venkat-RJ/hermes-tallyseal) | A Hermes Agent plugin for byte-exact release checks and grouped CSV verification | [Catalog PR merged](https://github.com/NousResearch/hermes-agent/pull/153588) |
 
-Other experiments: **[CoherenceBench](https://github.com/Venkat-RJ/coherencebench)**, an exploratory test of changing decisions in long-running monitoring tasks. Its results are preliminary and constrained to the test harness.
+Previously: founded PranaAlpha Labs; engineering and research across **Samsung Research, Bosch, Continental and Sigmoid**.
 
-## Background
-
-I founded PranaAlpha Labs and built AI products and knowledge infrastructure for agents. Before that, I worked across research, embedded systems, optimization, AI engineering, and technical leadership at **Samsung Research, Bosch, Continental, and Sigmoid**.
-
-I care about the path from **question → experiment → result → independent verification**. The code is important, but so is knowing what the evidence does and does not establish.
-
-<p align="center">
-  <a href="https://venkat-rj.github.io/">Portfolio</a> &nbsp; · &nbsp;
-  <a href="https://www.linkedin.com/in/venkateshwar-jambula/">LinkedIn</a> &nbsp; · &nbsp;
-  <a href="https://github.com/Venkat-RJ?tab=repositories">Repositories</a>
-</p>
+<sub>Animation is a fictional illustration of the research process, not footage of an experimental result. The FrontierOR figure is generated directly from the study's published 30-instance CSV; source and verification are in [media/](media/README.md).</sub>
