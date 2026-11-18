@@ -1,53 +1,72 @@
 # Venkateshwar Reddy
 
-I work on **autonomous research systems, optimization, and AI reliability**.
+**AI Research · Autonomous Systems · Technical Founder**
 
-The question behind much of my recent work is what happens *before* an agent starts solving a problem: how it formulates the problem, chooses a meaningful experiment, changes its approach when evidence disagrees, and decides what its results actually establish.
+I've worked across software, embedded systems, optimization, machine learning and AI, from hands-on research and engineering to building teams and products.
 
-[Website](https://venkat-rj.github.io/) · [Research code](https://github.com/Venkat-RJ?tab=repositories) · [LinkedIn](https://www.linkedin.com/in/venkateshwar-jambula/)
+Lately, I've been exploring how AI agents can go beyond executing a given plan: formulate problems, investigate different approaches, run experiments and produce results that can be checked.
 
-## Research
+## Selected work
 
-**[FrontierOR](https://github.com/Venkat-RJ/openresearch)** · Autonomous experimentation in combinatorial optimization
+<table width="100%">
+<tr>
+<td width="50%" valign="top">
 
-A factory-scheduling investigation using Sagent and Trackinizer, with Codex supporting the research infrastructure and validation. The final study froze the solver and evaluation protocol before generating fresh instances, and retained the comparisons, source, failures, and verification records.
+**[FrontierOR](https://github.com/Venkat-RJ/openresearch)**
 
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="media/frontieror-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="media/frontieror-light.svg">
-  <img src="media/frontieror-light.svg" width="100%" alt="Measured normalized scheduling advantage for 30 synthetic instances. The plot shows all instances, including the comparison favoring the historical EGRASP solver.">
-</picture>
+Autonomous experimentation in combinatorial optimization. The public archive includes factory-scheduling results, frozen solver code, evaluation protocols and independent checks.
 
-The frozen C++ solver had lower mean weighted tardiness than the historical EGRASP comparator on 29 of 30 fresh synthetic instances. All 180 final runs were valid. This is a comparison within the tested synthetic distribution, not a general state-of-the-art claim.
+</td>
+<td width="50%" valign="top">
 
-[Study](https://github.com/Venkat-RJ/openresearch/tree/main/frontieror/scheduling-study) · [Methods and limitations](https://github.com/Venkat-RJ/openresearch/blob/main/frontieror/METHODS.md) · [Reproduction records](https://github.com/Venkat-RJ/openresearch/blob/main/frontieror/scheduling-study/README.md)
+**[Dexter's Laboratory](https://github.com/Venkat-RJ/dexters-laboratory-v1)**
 
-**[FACET](https://github.com/Venkat-RJ/facet-benchmark)** · Measuring attribution in multi-factor reasoning
+An experimental research workspace built on [Lattice](https://github.com/leo1oel/lattice), bringing together formulation, literature, branching ideas, experiment execution and research records.
 
-An exploratory study of how different attribution probes change our assessment of a model's reasoning. Includes the paper, code, raw responses, and documented limits of the pilot.
+</td>
+</tr>
+<tr>
+<td valign="top">
 
-[Paper](https://github.com/Venkat-RJ/facet-benchmark/blob/main/FACET_paper.pdf) · [Archived research materials](https://doi.org/10.5281/zenodo.19557436)
+**[FACET](https://github.com/Venkat-RJ/facet-benchmark)**
 
-**[CoherenceBench](https://github.com/Venkat-RJ/coherencebench)** · Decisions across changing conditions
+An exploratory study of attribution faithfulness in multi-factor LLM reasoning, with a [paper](https://github.com/Venkat-RJ/facet-benchmark/blob/main/FACET_paper.pdf), code and experimental outputs.
 
-An exploratory test of whether an agent's decisions continue to track changing signals over long synthetic monitoring sessions. The current evidence is preliminary and specific to its evaluation setup.
+</td>
+<td valign="top">
 
-[Replay](https://venkat-rj.github.io/coherencebench/)
+**[CoherenceBench](https://github.com/Venkat-RJ/coherencebench)**
 
-## Building
+An exploratory test of whether model decisions track changing signals over long synthetic monitoring sessions. Includes a [replay demo](https://venkat-rj.github.io/coherencebench/).
 
-**[Dexter's Laboratory](https://github.com/Venkat-RJ/dexters-laboratory-v1)** is an experimental research workspace built on [Lattice](https://github.com/leo1oel/lattice). It brings formulation, literature, branching experiments, bounded execution, validation, and the research record into the same local environment.
+</td>
+</tr>
+<tr>
+<td valign="top">
 
-I'm interested in making the *process of investigation* inspectable, including experiments that fail, not just the final answer.
+**PortoAI**
 
-## Engineering contributions
+An AI investing and research platform I built and operated, combining specialist agents, market data, persistent context and approval-gated workflows. Closed in 2026.
 
-I also work directly in other people's codebases. Recent examples include WebAssembly interpreter validation in **[Talos](https://github.com/cajal-technologies/talos)** (Lean), agent-message attribution and state visibility proposed for **[Sagent](https://github.com/rekursiv-ai/sagent)**, and deterministic report verification in **[TallySeal](https://github.com/Venkat-RJ/hermes-tallyseal)** for Hermes Agent.
+</td>
+<td valign="top">
 
-[Selected Talos changes](https://github.com/cajal-technologies/talos/pulls?q=is%3Apr+author%3AVenkat-RJ) · [Sagent proposals](https://github.com/rekursiv-ai/sagent/pulls?q=is%3Apr+author%3AVenkat-RJ) · [TallySeal source](https://github.com/Venkat-RJ/hermes-tallyseal)
+**Lokaah**
 
----
+Knowledge infrastructure for agents, focused on resolving entities and relationships across messy information while retaining provenance and source citations.
 
-Previously, I founded PranaAlpha Labs. Earlier I worked across research, embedded systems, optimization, AI engineering, and technical leadership at Samsung Research, Bosch, Continental, and Sigmoid.
+</td>
+</tr>
+</table>
+
+## Open-source engineering
+
+I've contributed to **[Talos](https://github.com/cajal-technologies/talos)**, a WebAssembly interpreter in Lean, working on validation and correctness. I've also proposed improvements to agent messaging and state visibility in **[Sagent](https://github.com/rekursiv-ai/sagent)**, and built **[TallySeal](https://github.com/Venkat-RJ/hermes-tallyseal)**, a verification plugin for Hermes Agent.
+
+## Background
+
+Before founding PranaAlpha Labs, I worked at **Samsung Research, Bosch, Continental and Sigmoid**, across AI, optimization, embedded systems and engineering leadership. At Continental I led a data science team, and at Sigmoid I established the GenAI Center of Excellence.
+
+I like difficult problems where the right abstraction has not yet been found, and I still enjoy going deep into the code.
 
 [Website](https://venkat-rj.github.io/) · [LinkedIn](https://www.linkedin.com/in/venkateshwar-jambula/)
