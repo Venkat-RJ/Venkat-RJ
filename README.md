@@ -1,6 +1,8 @@
 <div align="center">
 
 <picture>
+  <source media="(prefers-reduced-motion: reduce) and (prefers-color-scheme: dark)" srcset="media/experiment-dark-static.svg">
+  <source media="(prefers-reduced-motion: reduce) and (prefers-color-scheme: light)" srcset="media/experiment-light-static.svg">
   <source media="(prefers-color-scheme: dark)" srcset="media/experiment-dark.svg">
   <source media="(prefers-color-scheme: light)" srcset="media/experiment-light.svg">
   <img src="media/experiment-light.svg" width="100%" alt="A little laboratory investigator celebrates an idea too early, gets challenged by a stern replication checker, finds a missing control, reruns the test and records a bounded conclusion. Illustrated by Venkat Reddy.">
