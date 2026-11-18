@@ -1,54 +1,74 @@
 # Venkateshwar Reddy
 
-**AI Research · Autonomous Systems · Technical Founder**
+**Independent AI Researcher · Systems Engineer · Technical Founder**
 
-I've worked on everything from embedded systems and optimization to machine learning, AI products and research tools. I've also built teams and started a company.
+I started my career writing embedded C for real-time engine control systems at Bosch and Caterpillar. Over the years, my work moved into industrial optimization, machine learning and AI at Continental, Samsung Research and Sigmoid.
+
+I later founded PranaAlpha Labs, where I built PortoAI and Lokaah.
 
 I'm currently doing independent research on autonomous scientific discovery, exploring how AI agents can conduct research, experiment with different approaches and improve on their own.
 
-## Things I've worked on
+Much of my recent work has been around problem formulation, scientific reasoning and experimentation. I've been building research environments and testing different approaches, particularly whether agents can discover useful directions beyond the ones initially given to them.
+
+## Research & Experiments
 
 <table width="100%">
 <tr>
 <td width="50%" valign="top">
-<strong><a href="https://github.com/Venkat-RJ/openresearch">FrontierOR</a></strong>
-<p>I used AI agents to explore factory-scheduling problems. The repo has the solver code, experiment results, protocols and checks so people can see what was tested.</p>
+
+**[Dexter's Laboratory](https://github.com/Venkat-RJ/dexters-laboratory-v1)**
+
+A customizable research environment built on Lattice. I'm developing tools for problem formulation, literature exploration, hypotheses, experiment execution and tracking research progress.
+
 </td>
 <td width="50%" valign="top">
-<strong><a href="https://github.com/Venkat-RJ/dexters-laboratory-v1">Dexter's Laboratory</a></strong>
-<p>A research workspace I'm building on top of <a href="https://github.com/leo1oel/lattice">Lattice</a>. I wanted one place for formulating problems, reading papers, trying ideas, running experiments and keeping track of what happened.</p>
-</td>
-</tr>
-<tr>
-<td width="50%" valign="top">
-<strong><a href="https://github.com/Venkat-RJ/facet-benchmark">FACET</a></strong>
-<p>I explored how changing the way we ask models about their reasoning can change what we think they relied on. An early study with a <a href="https://github.com/Venkat-RJ/facet-benchmark/blob/main/FACET_paper.pdf">paper</a>, code and raw results.</p>
-</td>
-<td width="50%" valign="top">
-<strong><a href="https://github.com/Venkat-RJ/coherencebench">CoherenceBench</a></strong>
-<p>An early experiment on whether an agent keeps track of what's important as conditions change over a long session. There's a <a href="https://venkat-rj.github.io/coherencebench/">replay demo</a> too.</p>
+
+**[FrontierOR](https://github.com/Venkat-RJ/openresearch)**
+
+Autonomous algorithm-discovery research using Rekursiv's Sagent and Trackinizer. A frozen AI-developed solver outperformed a historical scheduling baseline on 29 of 30 fresh synthetic instances. Code, experimental protocols and validation records are public.
+
 </td>
 </tr>
 <tr>
 <td width="50%" valign="top">
-<strong>PortoAI</strong>
-<p>An AI investing and research platform I built and ran, with specialist agents, market data, persistent context and approval-gated workflows. We closed it in 2026.</p>
+
+**[FACET](https://github.com/Venkat-RJ/facet-benchmark)**
+
+An exploratory study of attribution faithfulness in LLM reasoning, investigating how different probing methods affect our conclusions about model behavior. Includes a paper, code and results.
+
 </td>
 <td width="50%" valign="top">
-<strong>Lokaah</strong>
-<p>I worked on giving agents a better way to connect knowledge across messy sources, including entities, relationships, citations and where each piece of information came from.</p>
+
+**[CoherenceBench](https://github.com/Venkat-RJ/coherencebench)**
+
+An exploratory study of decision coherence in long-running AI agents. Tests how model decisions respond to changing conditions, with an interactive replay.
+
 </td>
 </tr>
 </table>
 
-## Open source
+## Things I've built
 
-I've worked on WebAssembly validation in Lean for **[Talos](https://github.com/cajal-technologies/talos)**, proposed fixes for agent messaging and state visibility in **[Sagent](https://github.com/rekursiv-ai/sagent)**, and built **[TallySeal](https://github.com/Venkat-RJ/hermes-tallyseal)** for checking reports in Hermes Agent.
+**PortoAI** was an AI investment research and portfolio intelligence platform I built at PranaAlpha Labs. It coordinated 14 specialized agents with persistent memory, market intelligence, risk analysis and approval-gated execution. It served paying customers before we closed the product in 2026.
 
-## A little background
+**Lokaah** explored AI-native knowledge infrastructure, connecting fragmented information through entity resolution, knowledge graphs and evidence provenance.
 
-Before starting PranaAlpha Labs, I worked at **Samsung Research, Bosch, Continental and Sigmoid**. At Continental I led a data science team, and at Sigmoid I set up the GenAI Center of Excellence.
+## Open Source
 
-I enjoy difficult problems, especially when it's not obvious what the right approach is. And I still like getting into the code.
+**[Talos](https://github.com/cajal-technologies/talos)** · Correctness and validation improvements to a WebAssembly interpreter written in Lean.
+
+**[Sagent](https://github.com/rekursiv-ai/sagent)** · Proposed improvements to agent communication, message attribution and background-work visibility.
+
+**[TallySeal](https://github.com/Venkat-RJ/hermes-tallyseal)** · A Hermes Agent plugin for independently verifying grouped reports and ensuring that released files match validated data.
+
+## Earlier Work
+
+At Continental, I worked on optimization and machine learning for automotive and industrial problems, including a Bayesian optimization system that reduced an engineering calibration process from approximately three weeks to 1.5 hours.
+
+At Samsung Research, I worked on Bixby, anomaly detection, NLP and AI-driven root-cause analysis. At Sigmoid, I built enterprise GenAI systems, including natural-language analytics and multi-agent applications.
+
+My earlier engineering work at Bosch and Caterpillar involved production embedded software, real-time scheduling, engine controls, debugging and hardware-in-the-loop validation.
+
+---
 
 [Website](https://venkat-rj.github.io/) · [LinkedIn](https://www.linkedin.com/in/venkateshwar-jambula/)
