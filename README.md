@@ -2,6 +2,8 @@
 
 **Independent AI Researcher · Systems Engineer · Technical Founder**
 
+<p align="center"><img src="assets/goku-killua-standoff.gif" alt="Goku and Killua standing far apart at sunset, with occasional golden and blue lightning" width="100%"></p>
+
 I started my career writing embedded C for real-time engine control systems at Bosch and Caterpillar. Over the years, my work moved into industrial optimization, machine learning and AI at Continental, Samsung Research and Sigmoid.
 
 I later founded PranaAlpha Labs, where I built PortoAI and Lokaah.
