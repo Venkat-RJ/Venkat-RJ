@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 230" width="1200" height="230" role="img" aria-labelledby="title desc">
+<title id="title">FACET</title><desc id="desc">What changes when we change the way we probe?</desc>
+<defs><linearGradient id="b" x1="0%" y1="0%" x2="100%" y2="100%"><stop offset="0%" stop-color="#07131B"/><stop offset="100%" stop-color="#0E2630"/></linearGradient><clipPath id="r"><rect x="1" y="1" width="1198" height="228" rx="20"/></clipPath></defs>
+<g clip-path="url(#r)"><rect width="1200" height="230" fill="url(#b)"/><path d="M703 0V230" stroke="#2B4E59" stroke-width="1" opacity=".75"/><rect x="1" y="1" width="1198" height="228" rx="20" fill="none" stroke="#2B4E59" stroke-width="2"/>
+<text x="66" y="45" fill="#9CF3C6" font-size="13" font-weight="800" letter-spacing="3" font-family="Segoe UI, Helvetica Neue, Arial, sans-serif">03  /  MODEL EVALUATION</text>
+<text x="64" y="112" fill="#F3F5F0" font-size="62" font-weight="850" letter-spacing="-1" font-family="Segoe UI, Helvetica Neue, Arial, sans-serif">FACET</text>
+<text x="67" y="158" fill="#B0C5C8" font-size="21" font-family="Segoe UI, Helvetica Neue, Arial, sans-serif">What changes when we change the way we probe?</text>
+<text x="67" y="204" fill="#6D919C" font-size="12" font-weight="750" letter-spacing="1.65" font-family="Segoe UI, Helvetica Neue, Arial, sans-serif">EXPLORATORY STUDY   /   PAPER   /   REPRODUCIBLE CODE</text>
+<rect x="766" y="56" width="165" height="95" rx="12" fill="#122A34" stroke="#2B4E59"/>
+<rect x="970" y="56" width="165" height="95" rx="12" fill="#122A34" stroke="#9CF3C6"/>
+<text x="847" y="89" text-anchor="middle" fill="#B0C5C8" font-size="12" letter-spacing="1.8" font-family="Segoe UI, Helvetica Neue, Arial, sans-serif">PROBE FORMAT</text>
+<text x="847" y="123" text-anchor="middle" fill="#F3F5F0" font-size="27" font-weight="700" font-family="Segoe UI, Helvetica Neue, Arial, sans-serif">INPUT</text>
+<text x="1053" y="89" text-anchor="middle" fill="#B0C5C8" font-size="12" letter-spacing="1.8" font-family="Segoe UI, Helvetica Neue, Arial, sans-serif">ATTRIBUTION</text>
+<text x="1053" y="123" text-anchor="middle" fill="#9CF3C6" font-size="27" font-weight="700" font-family="Segoe UI, Helvetica Neue, Arial, sans-serif">OUTPUT</text>
+<path d="M933 103H968 M963 97L970 103L963 109" fill="none" stroke="#F2BE7D" stroke-width="2"/>
+<text x="766" y="193" fill="#6D919C" font-size="15" letter-spacing="1" font-family="Segoe UI, Helvetica Neue, Arial, sans-serif">MEASUREMENT CHANGES INTERPRETATION</text></g>
+</svg>
