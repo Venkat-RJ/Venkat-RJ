@@ -64,11 +64,11 @@ def fade(*points):
     assert frames[0][0]==0 and frames[-1][0]==DURATION
     return anim("opacity",frames)
 
-def label_group(p, label, x,y,start,end,color="quiet",font=11):
+def label_group(p, label, x,y,start,end,color="quiet",font=11,anchor=None):
     # short held duration, 0.07 second in and out
     fade_frames=([(0,1),(end,1),(min(31.98,end+0.07),0),(30.37,0),(30.48,1),(32,1)] if start==0 else [(0,0),(max(0,start-0.06),0),(start,1),(end,1),(min(31.98,end+0.07),0),(32,0)])
     assert all(fade_frames[i][0]<fade_frames[i+1][0] for i in range(len(fade_frames)-1))
-    return el("g",fade(*fade_frames)+text(x,y,label,p,font,600,color,"mono"),opacity=0)
+    return el("g",fade(*fade_frames)+text(x,y,label,p,font,600,color,"mono",**({"text-anchor":anchor} if anchor else {})),opacity=0)
 
 def bot(p):
     ink=p['ink']; yellow=p['ochre']; paper=p['paper']; white=p['white']; quiet=p['quiet']
@@ -133,7 +133,7 @@ def validator(p):
     return el("g",trans("translate",travel)+lean,transform="translate(750 -100)",id="validator")
 
 def status(p, s, color,start,end):
-    return label_group(p,s,849,84,start,end,color,10).replace('font-family="\'SFMono-Regular\', Consolas, \'Liberation Mono\', monospace"', 'font-family="\'SFMono-Regular\', Consolas, \'Liberation Mono\', monospace" text-anchor="end"')
+    return label_group(p,s,849,84,start,end,color,10,anchor="end")
 
 def build(theme):
     p=PALETTES[theme]
