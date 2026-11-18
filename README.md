@@ -47,19 +47,21 @@ An exploratory study of decision coherence in long-running AI agents. Tests how 
 </tr>
 </table>
 
-## Things I've built
+## PranaAlpha Labs | Founder
 
-**PortoAI** was an AI investment research and portfolio intelligence platform I built at PranaAlpha Labs. It coordinated 14 specialized agents with persistent memory, market intelligence, risk analysis and approval-gated execution. It served paying customers before we closed the product in 2026.
+I founded PranaAlpha Labs to build AI-native products, taking them from architecture and engineering through deployment.
 
-**Lokaah** explored AI-native knowledge infrastructure, connecting fragmented information through entity resolution, knowledge graphs and evidence provenance.
+**PortoAI**
 
-## Open Source
+Built and launched an AI investment research and portfolio intelligence platform powered by 14 specialized agents. The system combined investment research, portfolio analysis, risk management, persistent memory and approval-gated execution.
 
-**[Talos](https://github.com/cajal-technologies/talos)** · Correctness and validation improvements to a WebAssembly interpreter written in Lean.
+PortoAI operated in production and served paying customers for six months before we closed it in 2026.
 
-**[Sagent](https://github.com/rekursiv-ai/sagent)** · Proposed improvements to agent communication, message attribution and background-work visibility.
+**Lokaah**
 
-**[TallySeal](https://github.com/Venkat-RJ/hermes-tallyseal)** · A Hermes Agent plugin for independently verifying grouped reports and ensuring that released files match validated data.
+Built AI-native search and knowledge infrastructure for agents, designed to make fragmented information across multiple sources discoverable, connected and usable for reasoning.
+
+The system combined cross-source entity resolution, knowledge graphs and evidence provenance, enabling agents to retrieve information, understand relationships and trace findings back to their original sources.
 
 ## Earlier Work
 
@@ -68,6 +70,8 @@ At Continental, I worked on optimization and machine learning for automotive and
 At Samsung Research, I worked on Bixby, anomaly detection, NLP and AI-driven root-cause analysis. At Sigmoid, I built enterprise GenAI systems, including natural-language analytics and multi-agent applications.
 
 My earlier engineering work at Bosch and Caterpillar involved production embedded software, real-time scheduling, engine controls, debugging and hardware-in-the-loop validation.
+
+I have also contributed to [Talos](https://github.com/cajal-technologies/talos), a WebAssembly interpreter written in Lean, worked on agent-message handling and CLI state in [Sagent](https://github.com/rekursiv-ai/sagent), and built [TallySeal](https://github.com/Venkat-RJ/hermes-tallyseal), a verification plugin for Hermes Agent.
 
 ---
 
