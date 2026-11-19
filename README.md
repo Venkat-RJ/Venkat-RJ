@@ -1,6 +1,6 @@
 # Venkateshwar Reddy
 
-**Independent AI Researcher · Systems Engineer · Technical Founder**
+**Independent AI Researcher ·Ex-Samsung Research · Ex- Founder**
 
 <p align="center"><img src="assets/goku-killua-standoff.gif" alt="Goku and Killua standing far apart at sunset, with occasional golden and blue lightning" width="100%"></p>
 
